@@ -10,6 +10,7 @@ Azul Escuro
 #020031
 
 Azul Claro
+#C1F6FF
 #A2F2FF
 #88e8fb
 #6EE2F5
@@ -24,15 +25,12 @@ Azul Claro
 body {
     background-color: #040046;
     font-family: "Actor", sans-serif;
-}
-
-.page_div{
-    margin-top: 25%;
-    margin-bottom: 50%;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .header{
     background-color: #020031;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +42,7 @@ body {
 }
 
 .header_components a{
-    color: #A2F2FF;
+    color: #FFF;
     font-size: 2.2rem;
     text-decoration: none;
     padding: 1rem;
@@ -54,9 +52,37 @@ body {
     color: #4cb7d2;
 }
 
+#theme_button{
+    background: none;
+    border: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#theme_button img{
+    width: 2rem;
+}
+
+.page_div{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+}
+
 .footer{
     background-color: #020031;
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
-    color: #A2F2FF;
+    color: #FFF;
     padding: 1rem;
+}
+
+.light-mode {
+    background-color: #E0FBFF;
+}
+
+.light-mode .header {
+    background-color: #1A0D6B;
 }
