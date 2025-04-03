@@ -30,7 +30,7 @@
         <section class="welcome_text">
             <h1>Seja bem-vindo ao BraunMotors! 🚗💨</h1>
             <br>
-            <p>Explore nossa lista de carros e veja fotos detalhadas de cada modelo. 
+            <p>Explore nossa lista de carros e veja fotos detalhadas de cada modelo.
                 Adicione, edite ou remova veículos facilmente através do nosso sistema.
             </p>
             <br>
@@ -43,7 +43,16 @@
         </section>
 
         <section class="pictures">
-            <img src="../assets/images/lancer_azul.jpg" alt="Carro Lancer Azul">
+            <div class="carousel">
+                <button class="prev">&#10094;</button>
+                <div class="carousel-container">
+                    <img src="../assets/images/lancer_azul.jpg" alt="Carro Lancer Azul" class="active">
+                    <img src="../assets/images/corvette.jpg" alt="Carro Corvette Vermelho">
+                    <img src="../assets/images/panamera.jpg" alt="Carro Panamera Preto">
+                    <img src="../assets/images/civic-type-r.jpg" alt="Carro Civic Type-R Azul">
+                </div>
+                <button class="next">&#10095;</button>
+            </div>
         </section>
     </main>
 
@@ -52,6 +61,7 @@
     </footer>
 
     <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/carousel.js"></script>
 </body>
 
 </html>
